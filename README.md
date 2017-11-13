@@ -6,7 +6,7 @@ Este repositorio contiene una página web **Creación de Tabs**.
 Crearmos 3 tabs con un **color diferente**. Donde al seleccionar un tabs se mostrara el contenido especifico de la pestaña seleccionada.
 
 ### Para desarrollar la animación:
-1. Aplicaremos eventos y animacion de para que las opciones del navegador se muestren o no se muestren segun la opcion.
+1. Aplicaremos eventos y animacion para que las opciones del navegador se muestren o no se muestren segun la opcion.
 
 ### Herramientas Utilizadas:
 1. HTML

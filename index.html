@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creación de Tabs</title>
+    <!--Agregamos una imagen a nuestra pestaña del navegador-->
+    <link rel="shorcut icon" type="image" href="assets/images/tabs.png">
+    <!--Linkeamos nuestro archivo externo main.css para que pueda dar estilo a nuestro documento html-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--Crearemos 3 tabs-->
+    <section>
+        <ul>
+            <li><button type="button" name="button" data-tabSelected="tabone">TAB 1</button></li>
+            <li><button type="button" name="button" data-tabSelected="tabtwo">TAB 2</button></li>
+            <li><button type="button" name="button" data-tabSelected="tabthree">TAB 3</button></li>
+        </ul>
+        <div class="containers">
+            <article id="one" class="container"><p><strong>¿Que son atributos data?</strong> Son atributos personalizados que nos permiten añadir datos a nuestros elementos HTML, que no necesariamente son visibles pero que nos ayudan mucho al momento de dar información adicional de dichos elementos.</p></article>
+            <article id="two" class="container"><p><strong>¿Qué es un evento?</strong> Es cuando el usuario realiza una acción permitiéndole interactuar con el programa. A cada evento se le asocia un manejador (conocido como eventHandlers o eventListener) el cual se ejecutará cuando ocurra el evento.</p></article>
+            <article id="three" class="container"><p><strong>Modificando contenido</strong> Los atributos innerHTML y textContent funcionan como métodos para obtener y establecer el valor de una propiedad específica.</p></article>
+        </div>
+    </section>
+
+    <!--Linkeamos nuestro archivo externo app.js para que pueda interactuar con la estructura html-->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
